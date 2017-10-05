@@ -177,7 +177,25 @@ Disadvantage
 
 #### Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 
-*Not answered yet*
+```js
+for(var i= 1; i <= 100; i++){
+  if(i % 3 && i % 5){
+    document.write(i);
+  }else{
+    if(i % 3 == 0){
+      document.write('fizz');
+    }
+    if(i % 5 == 0){
+      document.write('buzz');
+    }
+    if(i % 3 == 0  && i % 5 == ){
+      document.write('fizzbuzz');
+    }
+    
+    
+  }
+}
+```
 
 #### Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 
